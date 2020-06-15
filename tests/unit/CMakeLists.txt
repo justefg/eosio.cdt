@@ -18,6 +18,7 @@ add_native_executable( rope_tests rope_tests.cpp )
 add_native_executable( print_tests print_tests.cpp )
 add_native_executable( time_tests time_tests.cpp )
 add_native_executable( varint_tests varint_tests.cpp )
+add_native_executable( vector_tests vector_tests.cpp )
 
 target_compile_options( rope_tests PUBLIC -g )
 add_subdirectory(test_contracts)

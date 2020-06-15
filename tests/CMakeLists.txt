@@ -40,6 +40,8 @@ add_test( time_tests ${CMAKE_BINARY_DIR}/tests/unit/time_tests )
 set_property(TEST time_tests PROPERTY LABELS unit_tests)
 add_test( varint_tests ${CMAKE_BINARY_DIR}/tests/unit/varint_tests )
 set_property(TEST varint_tests PROPERTY LABELS unit_tests)
+add_test( vector_tests ${CMAKE_BINARY_DIR}/tests/unit/vector_tests )
+set_property(TEST vector_tests PROPERTY LABELS unit_tests)
 
 add_test( NAME toolchain_tests COMMAND ${CMAKE_BINARY_DIR}/tools/toolchain-tester/toolchain-tester ${CMAKE_SOURCE_DIR}/tests/toolchain --cdt ${CMAKE_BINARY_DIR}/bin )
 set_property(TEST toolchain_tests PROPERTY LABELS toolchain_tests)
